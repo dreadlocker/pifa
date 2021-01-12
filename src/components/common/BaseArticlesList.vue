@@ -3,7 +3,7 @@
     <router-link
       v-for="item in data"
       :key="item.text"
-      class="link"
+      class="link base-article-p"
       :to="item.path"
       tag="button"
     >
@@ -34,11 +34,10 @@ export default {
   .link
     all: initial
     color: #3a3a3a
-    margin: 0 10px
-    font-size: 2vw
     cursor: pointer
     margin: 10px 0
-    transition: all 0.3ss
+    display: table-cell
+    text-align: center
     &:hover
       color: #4064d7
 </style>

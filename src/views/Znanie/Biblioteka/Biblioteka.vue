@@ -1,6 +1,6 @@
 <template>
   <div class="biblioteka">
-    <h1>НЕ Е ОТ НАС ТОВА ... :P ... !!!</h1>
+    <h1 class="base-article-h1">НЕ Е ОТ НАС ТОВА ... :P ... !!!</h1>
     <BaseArticlesList :data="data" />
   </div>
 </template>

@@ -48,11 +48,17 @@ export default {
     font-size: 4vw
     text-align: center
     margin: 0
-@media only screen and (min-width: 1024px) and (max-width: 1366px)
+
+@media only screen and (max-width: 1366px)
   .link
     font-size: 3vw !important
   .emoji
     font-size: 3vw !important
+@media only screen and (min-width: 1000px) and (max-width: 1100px) and (orientation: portrait)
+  .link
+    font-size: 5vw !important
+  .emoji
+    font-size: 5vw !important
 @media only screen and (min-width: 568px) and (max-width: 1023px)
   .link
     font-size: 4vw !important
