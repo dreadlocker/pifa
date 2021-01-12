@@ -1,1 +1,1 @@
-# https://dreadlocker.github.io/pifa2/.
+# https://dreadlocker.github.io/pifa2
