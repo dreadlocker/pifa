@@ -1,20 +1,20 @@
 <template>
   <div>
-    <h1>Строителство с естествени материали</h1>
-    <p>
+    <h1 class="base-article-h1">Строителство с естествени материали</h1>
+    <p class="base-article-p">
       <a
         href="https://drive.google.com/file/d/0B3IST3O9gLaYSExyZnQxZkUzOTQ/view"
         >Строителство с естествени материали</a
       >&nbsp;– линк от гугъл драйв<br />
       Традиционни практики и съвременно приложение
     </p>
-    <p>
+    <p class="base-article-p">
       автор: Арх. Георги Георгиев<br />
       издадена: 2015г.<br />
       страници: 146
     </p>
-    <p>Съдържание:</p>
-    <p>
+    <p class="base-article-p">Съдържание:</p>
+    <p class="base-article-p">
       I.ИСТОРИЯ НА СТРОИТЕЛНИТЕ ТЕХНИКИ ПО НАШИТЕ ЗЕМИ &nbsp;2<br />
       1. ПРАИСТОРИЯ 2<br />
       2.АНТИЧНОСТ И СРЕДНОВЕКОВИЕ &nbsp;5<br />

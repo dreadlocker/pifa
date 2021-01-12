@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue";
+import NavBar from "./components/NavBar/NavBar.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -20,6 +20,8 @@ export default {
 </script>
 
 <style lang="sass">
+@import "global.sass"
+
 html,body
   margin: 0
   width: 100%

@@ -45,4 +45,37 @@ export default {
   .img
     width: 70%
     height: auto
+
+@media only screen and (min-width: 1367px)
+  h1
+    font-size: 3vw !important
+  h2
+    font-size: 2vw !important
+  p,ul
+    font-size: 1.5vw !important
+@media only screen and (min-width: 1000px) and (max-width: 1100px) and (orientation: portrait)
+  h1
+    font-size: 6vw !important
+  h2
+    font-size: 4vw !important
+  p,ul
+    font-size: 3.2vw !important
+@media only screen and (min-width: 568px) and (max-width: 1023px)
+  h1
+    font-size: 6vw !important
+  h2
+    font-size: 4vw !important
+  p,ul
+    font-size: 3.2vw !important
+@media only screen and (min-width: 320px) and (max-width: 567px)
+  h1
+    font-size: 9vw !important
+  h2
+    font-size: 7vw !important
+  p,ul
+    font-size: 6.2vw !important
+  .info
+    width: 100% !important
+  .img
+    display: none
 </style>

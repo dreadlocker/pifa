@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1>Библиотеката на спирала.нет</h1>
-    <p>
+    <h1 class="base-article-h1">Библиотеката на спирала.нет</h1>
+    <p class="base-article-p">
       Библиотека на
       <a href="http://www.spiralata.net/biblioteka/">спирала.нет</a>
     </p>
-    <p>
+    <p class="base-article-p">
       “За живота, вселената и всичко останало…” – снимка и текст – спирала.нет
     </p>
   </div>

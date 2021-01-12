@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Революцията на една сламка</h1>
-    <p>
+    <h1 class="base-article-h1">Революцията на една сламка</h1>
+    <p class="base-article-p">
       <a
         href="http://gradinka.zaedno.net/sites/gradinka.zaedno.net/files/Revoluciata_na_edna_slamka.pdf"
         >Революцията на една сламка</a
@@ -12,7 +12,7 @@
       автор: Масанобу Фукуока<br />
       издадена: 1975г.
     </p>
-    <p style="text-align: left">
+    <p class="base-article-p" style="text-align: left">
       Съдържание<br />
       1. Увод<br />
       2. Глава I<br />
@@ -59,12 +59,12 @@
       6. Село без война и мир<br />
       7. Революцията на една сламка
     </p>
-    <p>
+    <p class="base-article-p">
       <a href="http://www.appropedia.org/images/d/d3/Onestraw.pdf"
         >английско издание</a
       >
     </p>
-    <p>&nbsp;</p>
+    <p class="base-article-p">&nbsp;</p>
   </div>
 </template>
 

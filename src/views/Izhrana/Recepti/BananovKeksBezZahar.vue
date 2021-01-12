@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Бананов кекс без захар</h1>
-    <p>
+    <h1 class="base-article-h1">Бананов кекс без захар</h1>
+    <p class="base-article-p">
       Здравейте, казвам се Мария, преди всичко искам да кажа, че съм далеч от
       професионален готвач. Лично правило – храната да е здравословна! Любовта
       към готвенето открих преди две години и от тогава насам изпробвам,
@@ -9,17 +9,18 @@
       сърце, за това тук ще публикувам експерименталните рецепти, които са се
       получили.&nbsp; И за начало –
     </p>
-    <p>&nbsp;</p>
-    <h1>Бананов кекс без захар : )</h1>
-    <p>
+    <p class="base-article-p">&nbsp;</p>
+    <h1 class="base-article-h1">Бананов кекс без захар : )</h1>
+    <p class="base-article-p">
       Ще са ви нужни следните <strong>съставки</strong>: /по ред на поява в
       сценария/
     </p>
-    <p>&nbsp;</p>
-    <ul>
+    <p class="base-article-p">&nbsp;</p>
+    <ul class="base-article-ul">
       <li><strong>15 фурми</strong></li>
       <li>
-        <strong>3 по – големи банана</strong>/по зрели/<img
+        <strong>3 по – големи банана</strong>/по зрели/
+        <img
           loading="lazy"
           class="size-medium wp-image-1182 alignright"
           src="http://www.mashterka.com/wp-content/uploads/2018/10/IMG_0005-300x225.jpg"
@@ -45,15 +46,15 @@
       <li><strong>½ ч.л. ванилия</strong></li>
       <li><strong>3 с.л. какао</strong></li>
     </ul>
-    <p>&nbsp;</p>
-    <ul>
+    <p class="base-article-p">&nbsp;</p>
+    <ul class="base-article-ul">
       <li>2 лъжици мед/по желание/</li>
     </ul>
-    <p>
+    <p class="base-article-p">
       Ами, така като гледам, това са продуктите, от които имаме нужда за
       експеримента. Да започваме!
     </p>
-    <p>
+    <p class="base-article-p">
       Пускате <strong>фурната</strong> да загрее на <strong>170° C</strong> ,
       през това време накисваме <strong>фурмите в гореща вода</strong> за
       <strong>10 мин.</strong> Докато те се накисват, време е да
@@ -69,7 +70,7 @@
       Събираме двете парчета. Хайде да печем! Време за
       <strong>печене около 45мин</strong>.
     </p>
-    <p>
+    <p class="base-article-p">
       <img
         loading="lazy"
         class="wp-image-1185 aligncenter"
@@ -85,7 +86,7 @@
         sizes="(max-width: 501px) 100vw, 501px"
       />
     </p>
-    <p style="text-align: center">
+    <p class="base-article-p" style="text-align: center">
       <strong>Да ви е сладко, наздраве!&nbsp; &nbsp;</strong>
     </p>
   </div>

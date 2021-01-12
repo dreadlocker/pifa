@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Домашен шоколад без захар</h1>
-    <p>
+    <h1 class="base-article-h1">Домашен шоколад без захар</h1>
+    <p class="base-article-p">
       Хей, хей, хей : ) Здравейте отново прекрасни същества! Днешното
       предложение е съвсем просто и след като опитате, можете да спрете да
       купувате всички шоколади от магазините! Нека първо разгледаме състава на
@@ -14,17 +14,17 @@
       А рецептата, която ще ви представя няма да включва нищо от това, което е
       написано на опаковката, която четете, с изключение на какаото.
     </p>
-    <p>&nbsp;</p>
+    <p class="base-article-p">&nbsp;</p>
     <h1 style="text-align: center">Домашен шоколад без захар</h1>
-    <p><strong>Съставки:</strong></p>
-    <ul>
+    <p class="base-article-p"><strong>Съставки:</strong></p>
+    <ul class="base-article-ul">
       <li><strong>500гр. фурми</strong></li>
       <li><strong>100гр. бадеми</strong></li>
       <li><strong>50гр. какао</strong></li>
       <li><strong>сок от 1 лимон</strong></li>
       <li><strong>сок от 1 портокал</strong></li>
     </ul>
-    <p>
+    <p class="base-article-p">
       Накисваме <strong>фурмите в гореща вода</strong> за
       <strong>10 мин.</strong> Може да <strong>смелите бадемите</strong> на по
       <strong>едри парчета</strong>, може да ги използвате и
@@ -36,7 +36,7 @@
       хомогенна смес. <strong>Слагате във фризер</strong>, за да се стегне
       сместа, за <strong>1 час</strong>.
     </p>
-    <p>
+    <p class="base-article-p">
       <img
         loading="lazy"
         class="size-medium wp-image-1190 aligncenter"

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h1>Постен бял сос с чесън</h1>
-    <p>
+    <h1 class="base-article-h1">Постен бял сос с чесън</h1>
+    <p class="base-article-p">
       Надявам се не чакахте много. От вчера до днес, са близо 20-тина часа. В
       предната рецепта ви представих кюфтенцата от леща. Днес ще ви представя
       сос, ПОСТЕН сос, който може да комбинирате с тях. Ето го и него!
     </p>
-    <p>&nbsp;</p>
+    <p class="base-article-p">&nbsp;</p>
     <h1 style="text-align: center">Постен бял сос с чесън</h1>
-    <h2><strong>Съставки:</strong></h2>
-    <ul>
+    <h3 class="base-article-h3"><strong>Съставки:</strong></h3>
+    <ul class="base-article-ul">
       <li><b>4 с.л. зехтин или олио</b></li>
       <li><strong>4 с.л. бяло брашно</strong></li>
       <li><strong>4 скилидки чесън</strong></li>
@@ -17,7 +17,7 @@
       <li><strong>сок от два лимона или 50 до 100 мл. ябълков оцет</strong></li>
       <li><strong>щипка сол</strong></li>
     </ul>
-    <p>
+    <p class="base-article-p">
       Взимате буркан за компот – <strong>800мл</strong>. Слагате четири по –
       едри скилидки <strong>чесън</strong>. За компания на чесънчето му добавяте
       сокът от двата <strong>лимона</strong>/<strong>или</strong> ябълковия
