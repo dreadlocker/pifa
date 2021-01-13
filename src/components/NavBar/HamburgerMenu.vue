@@ -1,7 +1,6 @@
 <template>
   <div
     @click="toggleMenu"
-    ref="menu"
     :class="['hamburger-menu', menuOpened ? 'change' : '']"
   >
     <div class="bar1"></div>

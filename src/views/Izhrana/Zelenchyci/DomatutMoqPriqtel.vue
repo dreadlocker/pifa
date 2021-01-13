@@ -343,12 +343,26 @@
       винаги е придружена с аперитив – ракия!<br />
       Наздраве!
     </p>
+    <FBcomments :href="this.href" />
   </div>
 </template>
 
 <script>
+import FBcomments from "@/components/common/FBcomments.vue";
+
 export default {
   name: "DomatutMoqPriqtel",
+  components: {
+    FBcomments,
+  },
+  data() {
+    return {
+      href: "",
+    };
+  },
+  mounted() {
+    this.href = window.location.href;
+  },
 };
 </script>
 

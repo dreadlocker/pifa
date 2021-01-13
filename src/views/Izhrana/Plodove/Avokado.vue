@@ -154,12 +154,26 @@
     </ul>
     <p class="base-article-p">&nbsp;</p>
     <p class="base-article-p">&nbsp;</p>
+    <FBcomments :href="this.href" />
   </div>
 </template>
 
 <script>
+import FBcomments from "@/components/common/FBcomments.vue";
+
 export default {
   name: "Avokado",
+  components: {
+    FBcomments,
+  },
+  data() {
+    return {
+      href: "",
+    };
+  },
+  mounted() {
+    this.href = window.location.href;
+  },
 };
 </script>
 
@@ -167,4 +181,3 @@ export default {
 .content
   display: block !important
 </style>
-
