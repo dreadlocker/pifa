@@ -22,6 +22,9 @@
       <ul v-else-if="item.tag === 'ul'" :key="index" class="base-article-ul">
         <li v-for="(text, index) in item.text" v-html="text" :key="index" />
       </ul>
+      <ol v-else-if="item.tag === 'ol'" :key="index" class="base-article-ul">
+        <li v-for="(text, index) in item.text" v-html="text" :key="index" />
+      </ol>
       <img
         v-else-if="item.tag === 'img'"
         :src="item.src"
