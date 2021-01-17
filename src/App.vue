@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="sass">
-@import "global.sass"
+@import "./assets/global.sass"
 
 html,body
   margin: 0

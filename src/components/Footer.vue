@@ -18,6 +18,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "@/assets/_globalVars.sass"
+
 .footer
   padding: 3vw
   font-size: 3vw
@@ -30,8 +32,7 @@ export default {
     margin: 0 10px
     font-size: 3vw
     cursor: pointer
-    // FIX DA SE IZKARA GLOBALNO I DA SE PODAVA NAVSQKUDE
-    transition: all 0.3s
+    transition: $default-transition
     &:hover
       color: #4064d7
 

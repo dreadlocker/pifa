@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "@/assets/_globalVars.sass"
 @import "_variables.sass"
 
 .hamburger-menu
@@ -56,7 +57,7 @@ export default {
   height: 5px
   background-color: #333
   margin: 6px 0
-  transition: all 0.3s
+  transition: $default-transition
 .change .bar1
   transform: rotate(-45deg) translate(-9px, 6px)
 .change .bar2

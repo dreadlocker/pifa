@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "@/assets/_globalVars.sass"
+
 .links-holder
   height: fit-content
   display: grid
@@ -38,7 +40,7 @@ export default {
     margin: 0 10px
     font-size: 2vw
     cursor: pointer
-    transition: all 0.3s
+    transition: $default-transition
     &:hover
       color: #4064d7
     .text

@@ -1,13 +1,13 @@
 <template>
   <div class="article-holder">
     <router-link
-      v-for="item in data"
-      :key="item.text"
+      v-for="article in articles"
+      :key="article.text"
       class="link base-article-p"
-      :to="item.path"
+      :to="article.path"
       tag="button"
     >
-      {{ item.text }}
+      {{ article.text }}
     </router-link>
   </div>
 </template>
@@ -16,7 +16,7 @@
 export default {
   name: "BaseArticlesList",
   props: {
-    data: {
+    articles: {
       type: Array,
       required: true,
     },

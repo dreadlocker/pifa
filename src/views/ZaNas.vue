@@ -52,6 +52,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "@/assets/_globalVars.sass"
+
 .content
   flex-direction: column
 .info
@@ -66,7 +68,7 @@ a
   all: inherit
   cursor: pointer
   margin-right: 15px
-  transition: all 0.3s
+  transition: $default-transition
   &:hover
     transform: scale(1.1)
 .icons-holder

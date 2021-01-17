@@ -1,8 +1,9 @@
 <template>
-  <BaseArticlesList :data="data" />
+  <BaseArticlesList :articles="articles" />
 </template>
 
 <script>
+import { articlesHolder } from "@/assets/articlesHolder.js";
 import BaseArticlesList from "@/components/common/BaseArticlesList";
 
 export default {
@@ -11,34 +12,11 @@ export default {
     BaseArticlesList,
   },
   data() {
-    return {
-      data: [
-        {
-          text: "Постен бял сос с чесън",
-          path: "/izhrana/recepti/posten-bql-sos-s-chesun",
-        },
-        {
-          text: "Печени кюфтенца от леща",
-          path: "/izhrana/recepti/pecheni-kiyftenca-ot-leshta",
-        },
-        {
-          text: "Как да си направим комбуча? Пълен наръчник със снимки",
-          path: "/izhrana/recepti/kak-da-si-napravim-kombycha",
-        },
-        {
-          text: "Домашен шоколад без захар",
-          path: "/izhrana/recepti/domashen-shokolad-bez-zahar",
-        },
-        {
-          text: "Бананов кекс без захар",
-          path: "/izhrana/recepti/bananov-keks-bez-zahar",
-        },
-      ],
-    };
+    const articles = articlesHolder.izhrana.recepti;
+    return { articles };
   },
 };
 </script>
 
 <style lang="sass" scoped>
 </style>
-

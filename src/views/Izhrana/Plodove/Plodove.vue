@@ -1,8 +1,9 @@
 <template>
-  <BaseArticlesList :data="data" />
+  <BaseArticlesList :articles="articles" />
 </template>
 
 <script>
+import { articlesHolder } from "@/assets/articlesHolder.js";
 import BaseArticlesList from "@/components/common/BaseArticlesList";
 
 export default {
@@ -11,14 +12,8 @@ export default {
     BaseArticlesList,
   },
   data() {
-    return {
-      data: [
-        {
-          text: "Как Да Отгледаме Авокадо от Семка Вкъщи",
-          path: "/izhrana/plodove/avokado",
-        },
-      ],
-    };
+    const articles = articlesHolder.izhrana.plodove;
+    return { articles };
   },
 };
 </script>

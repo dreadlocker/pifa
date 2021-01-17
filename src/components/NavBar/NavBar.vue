@@ -8,6 +8,29 @@
     ></router-link>
 
     <div class="options-holder">
+      <div class="magnifying-glass">&#128269;</div>
+      <div class="search-holder">
+        <input
+          @input="searchForArticles"
+          @change="hideSearchResults"
+          @focus="showSearchResults"
+          ref="search"
+          type="text"
+          placeholder="заглавие на статия..."
+          class="search-inp"
+        />
+        <div :class="['search-results', areSearchResultsHidden ? 'hide' : '']">
+          <router-link
+            v-for="article in foundArticles"
+            @click.native="selectFoundArticle"
+            :to="article.path"
+            tag="button"
+            :key="article.text"
+          >
+            {{ article.text }}
+          </router-link>
+        </div>
+      </div>
       <router-link
         :to="link.path"
         v-for="link in links"
@@ -25,6 +48,7 @@
 </template>
 
 <script>
+import { allArticles } from "@/assets/articlesHolder.js";
 import HamburgerMenu from "./HamburgerMenu";
 import links from "./linksHelper";
 
@@ -36,15 +60,44 @@ export default {
   data() {
     return {
       links,
+      foundArticles: [],
+      areSearchResultsHidden: false,
     };
+  },
+  methods: {
+    searchForArticles({ target: { value } }) {
+      this.foundArticles = allArticles.filter((article) => {
+        const regExp = new RegExp(value, "i");
+        if (regExp.test(article.text)) {
+          return article;
+        }
+      });
+    },
+    selectFoundArticle() {
+      this.$refs.search.value = "";
+      this.foundArticles = [];
+    },
+    hideSearchResults({ target: { tagName } }) {
+      if (tagName !== "INPUT") {
+        this.areSearchResultsHidden = true;
+      }
+    },
+    showSearchResults() {
+      this.areSearchResultsHidden = false;
+    },
+  },
+  created() {
+    document.addEventListener("click", this.hideSearchResults);
   },
 };
 </script>
 
 <style lang="sass" scoped>
+@import "@/assets/_globalVars.sass"
 @import "_variables.sass"
 
 $padding-x: 1%
+$search-inp-height: 20px
 
 #nav
   width: calc(100% - #{$padding-x * 2})
@@ -59,11 +112,35 @@ $padding-x: 1%
     width: auto
     height: inherit
     cursor: pointer
-    transition: all 0.3s
+    transition: $default-transition
     &:hover
       transform: scale(1.1)
   .options-holder
     display: flex
+    .magnifying-glass
+      margin: auto 10px auto auto
+    .search-holder
+      position: relative
+      margin: auto 0
+      .search-inp
+        height: $search-inp-height
+      .search-results
+        width: 100%
+        position: absolute
+        top: calc( #{$search-inp-height} + 7px )
+        left: 0
+        background-color: white
+        z-index: 1
+        &.hide
+          display: none
+        button
+          width: 100%
+          background-color: transparent
+          border: 1px solid black
+          border-top: none
+          cursor: pointer
+          &:hover
+            background-color: #e4e4e4
     .link
       &.router-link-exact-active
         color: #4064d7
@@ -73,14 +150,14 @@ $padding-x: 1%
   margin: 0 10px
   font-size: 3vw
   cursor: pointer
-  transition: all 0.3s
+  transition: $default-transition
   background-color: transparent
   border: none
 .dummy
   display: none
 
 @media only screen and (max-width: 767px)
-  .options-holder, .logo
+  .link, .logo
     display: none !important
   .dummy
     display: inline

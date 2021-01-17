@@ -1,11 +1,12 @@
 <template>
   <div class="biblioteka">
     <h1 class="base-article-h1">НЕ Е ОТ НАС ТОВА ... :P ... !!!</h1>
-    <BaseArticlesList :data="data" />
+    <BaseArticlesList :articles="articles" />
   </div>
 </template>
 
 <script>
+import { articlesHolder } from "@/assets/articlesHolder.js";
 import BaseArticlesList from "@/components/common/BaseArticlesList";
 
 export default {
@@ -14,36 +15,8 @@ export default {
     BaseArticlesList,
   },
   data() {
-    return {
-      data: [
-        {
-          text:
-            "Изисквания за устройството и експлоатацията на гъбарници НАРЕДБА № 7",
-          path:
-            "/znanie/biblioteka/iziskvaniq-za-ystroistvoto-i-eksploataciqta-na-gubarnici",
-        },
-        {
-          text: "Отглеждане на коноп",
-          path: "/znanie/biblioteka/otglejdane-na-konop",
-        },
-        {
-          text: "Строителство с естествени материали",
-          path: "/znanie/biblioteka/stroitelstvo-s-estestveni-materiali",
-        },
-        {
-          text: "666 съвета за любителя градинар",
-          path: "/znanie/biblioteka/666-suveta-za-liybitelq-gradinar",
-        },
-        {
-          text: "Революцията на една сламка",
-          path: "/znanie/biblioteka/revoliyciqta-na-edna-slamka",
-        },
-        {
-          text: "Откъс от закон за собствеността",
-          path: "/znanie/biblioteka/otkus-ot-zakon-za-sobstvenostta",
-        },
-      ],
-    };
+    const articles = articlesHolder.znanie.biblioteka;
+    return { articles };
   },
 };
 </script>

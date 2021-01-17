@@ -1,8 +1,9 @@
 <template>
-  <BaseArticlesList :data="data" />
+  <BaseArticlesList :articles="articles" />
 </template>
 
 <script>
+import { articlesHolder } from "@/assets/articlesHolder.js";
 import BaseArticlesList from "@/components/common/BaseArticlesList";
 
 export default {
@@ -11,22 +12,8 @@ export default {
     BaseArticlesList,
   },
   data() {
-    return {
-      data: [
-        {
-          text: "Документалните филми на колибка.ком",
-          path: "/znanie/polezni-vruzki/dokymentalnite-filmi-na-kolibka-kom",
-        },
-        {
-          text: "Духовно развитие",
-          path: "/znanie/polezni-vruzki/dyhovno-razvitie",
-        },
-        {
-          text: "Библиотеката на спирала.нет",
-          path: "/znanie/polezni-vruzki/bibliotekata-na-spirala-net",
-        },
-      ],
-    };
+    const articles = articlesHolder.znanie.polezniVruzki;
+    return { articles };
   },
 };
 </script>
