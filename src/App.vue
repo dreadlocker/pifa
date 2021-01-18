@@ -44,6 +44,7 @@ html,body
     justify-content: center
     align-items: center
     margin: 0 auto
+
 @media only screen  and (max-width: 999px)
   .content
     margin: 0 3% !important

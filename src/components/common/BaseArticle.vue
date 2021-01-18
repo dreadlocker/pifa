@@ -25,13 +25,13 @@
       <ol v-else-if="item.tag === 'ol'" :key="index" class="base-article-ul">
         <li v-for="(text, index) in item.text" v-html="text" :key="index" />
       </ol>
-      <img
+      <div
         v-else-if="item.tag === 'img'"
-        :src="item.src"
-        :alt="item.alt"
         :key="item.src"
-        class="base-article-img"
-      />
+        class="base-article-img-holder"
+      >
+        <img :src="item.src" :alt="item.alt" class="base-article-img" />
+      </div>
       <iframe
         v-else-if="item.tag === 'video'"
         :title="iframeTitle"
