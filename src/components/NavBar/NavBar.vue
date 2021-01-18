@@ -8,17 +8,7 @@
     ></router-link>
 
     <div class="options-holder">
-      <div class="magnifying-glass">&#128269;</div>
       <div class="search-holder">
-        <input
-          @input="searchForArticles"
-          @change="hideSearchResults"
-          @focus="showSearchResults"
-          ref="search"
-          type="text"
-          placeholder="заглавие на статия..."
-          class="search-inp"
-        />
         <div :class="['search-results', areSearchResultsHidden ? 'hide' : '']">
           <router-link
             v-for="article in foundArticles"
@@ -40,6 +30,16 @@
       >
         {{ link.text }}
       </router-link>
+      <div class="magnifying-glass">&#128269;</div>
+      <input
+        @input="searchForArticles"
+        @change="hideSearchResults"
+        @focus="showSearchResults"
+        ref="search"
+        type="text"
+        placeholder="заглавие на статия..."
+        class="search-inp"
+      />
     </div>
 
     <div class="dummy"></div>
@@ -119,11 +119,12 @@ $search-inp-height: 20px
     display: flex
     .magnifying-glass
       margin: auto 10px auto auto
+    .search-inp
+      height: $search-inp-height
+      margin: auto 0
     .search-holder
       position: relative
       margin: auto 0
-      .search-inp
-        height: $search-inp-height
       .search-results
         width: 100%
         position: absolute
