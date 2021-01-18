@@ -8,6 +8,7 @@
 <script>
 import BaseArticle from "@/components/common/BaseArticle.vue";
 import FBcomments from "@/components/common/FBcomments.vue";
+import { articlesHolder } from "@/assets/articlesHolder.js";
 
 export default {
   name: "PostenBqlSosChesun",
