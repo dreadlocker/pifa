@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: articlesHolder.izhrana.zelenchyci[0].text,
+          text: articlesHolder.znanie.biblioteka[2].text,
         },
         {
           tag: "p",

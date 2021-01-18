@@ -9,6 +9,7 @@
 
 <script>
 import BaseZnanieVideo from "@/components/common/BaseZnanieVideo";
+import { articlesHolder } from "@/assets/articlesHolder.js";
 
 export default {
   name: "KakSePraviKashkaval",
@@ -17,7 +18,7 @@ export default {
   },
   data() {
     return {
-      title: "Как се прави кашкавал",
+      title: articlesHolder.znanie.videa[0].text,
       iframeTitle: "КАК СЕ ПРАВИ КАШКАВАЛ НА ОТКРИТО",
       iframeSrc: "https://www.youtube.com/embed/mDCaXQi3bwM?feature=oembed",
       subTitle: "Любезно предоставено от Кольо Бошнаков",

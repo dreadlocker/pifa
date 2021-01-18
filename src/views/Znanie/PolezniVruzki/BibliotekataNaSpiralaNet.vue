@@ -22,12 +22,12 @@ export default {
       data: [
         {
           tag: "h1",
-          text: articlesHolder.izhrana.zelenchyci[0].text,
+          text: articlesHolder.znanie.polezniVruzki[2].text,
         },
         {
           tag: "p",
           text:
-            'Библиотека на <a target="_blank" href="http://www.spiralata.net/biblioteka/">спирала.нет</a>',
+            'Библиотека на <a target="_blank" href="https://mega.nz/folder/3QBgWKgC#P8ix8_p3wu6SSbVSb0w6NQ">спирала.нет</a>',
         },
         {
           tag: "p",

@@ -8,6 +8,7 @@
 
 <script>
 import BaseZnanieVideo from "@/components/common/BaseZnanieVideo";
+import { articlesHolder } from "@/assets/articlesHolder.js";
 
 export default {
   nam: "StroeneNaKolibaOtKirpich",
@@ -16,7 +17,7 @@ export default {
   },
   data() {
     return {
-      title: "Строене на колиба от кирпич, с огнище и комин",
+      title: articlesHolder.znanie.videa[1].text,
       iframeTitle: "Primitive Technology: Wattle and Daub Hut",
       iframeSrc: "https://www.youtube.com/embed/nCKkHqlx9dE?feature=oembed",
     };
