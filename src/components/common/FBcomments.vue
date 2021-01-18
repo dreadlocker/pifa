@@ -1,7 +1,7 @@
 <template>
   <div>
     <button v-if="showCommentsBtnVisible" @click="showComments">
-      Show comments
+      Покажи коментари
     </button>
     <div
       ref="FBcoments"

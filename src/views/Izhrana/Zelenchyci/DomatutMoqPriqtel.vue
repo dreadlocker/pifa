@@ -8,6 +8,7 @@
 <script>
 import BaseArticle from "@/components/common/BaseArticle.vue";
 import FBcomments from "@/components/common/FBcomments.vue";
+import { articlesHolder } from "@/assets/articlesHolder.js";
 
 export default {
   name: "DomatutMoqPriqtel",
@@ -27,7 +28,7 @@ export default {
         },
         {
           tag: "h1",
-          text: "Доматът, моя приятел",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",
@@ -201,6 +202,6 @@ export default {
 
 <style lang="sass" scoped>
 .content
-  display: block !important
+  flex-direction: column !important
 </style>
 

@@ -32,6 +32,16 @@
         :key="item.src"
         class="base-article-img"
       />
+      <iframe
+        v-else-if="item.tag === 'video'"
+        :title="iframeTitle"
+        :src="iframeSrc"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="true"
+        :key="index"
+        class="iframe"
+      ></iframe>
     </template>
   </div>
 </template>

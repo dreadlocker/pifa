@@ -68,5 +68,5 @@ export default {
 
 <style lang="sass" scoped>
 .content
-  display: block !important
+  flex-direction: column !important
 </style>
