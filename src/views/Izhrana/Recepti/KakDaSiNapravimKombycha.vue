@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Как да си направим комбуча? Пълен наръчник със снимки",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "h3",

@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Строителство с естествени материали",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

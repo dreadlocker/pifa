@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Бананов кекс без захар",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

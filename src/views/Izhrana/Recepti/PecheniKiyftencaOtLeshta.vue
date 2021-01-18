@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Печени кюфтенца от леща",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

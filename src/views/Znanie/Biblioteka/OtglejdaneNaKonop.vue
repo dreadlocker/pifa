@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Отглеждане на коноп",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

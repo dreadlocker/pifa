@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Откъс от закон за собствеността",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

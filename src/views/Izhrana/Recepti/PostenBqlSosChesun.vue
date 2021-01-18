@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Постен бял сос с чесън",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

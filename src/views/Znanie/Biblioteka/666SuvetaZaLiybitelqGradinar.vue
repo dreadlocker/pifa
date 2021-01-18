@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "666 съвета за любителя градинар",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

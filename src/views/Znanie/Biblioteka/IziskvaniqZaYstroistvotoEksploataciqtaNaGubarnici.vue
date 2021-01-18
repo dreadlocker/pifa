@@ -22,8 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text:
-            "Изисквания за устройството и експлоатацията на гъбарници НАРЕДБА № 7",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

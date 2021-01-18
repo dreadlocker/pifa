@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Как Да Отгледаме Авокадо от Семка Вкъщи",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",

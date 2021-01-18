@@ -22,7 +22,7 @@ export default {
       data: [
         {
           tag: "h1",
-          text: "Революцията на една сламка",
+          text: articlesHolder.izhrana.zelenchyci[0].text,
         },
         {
           tag: "p",
