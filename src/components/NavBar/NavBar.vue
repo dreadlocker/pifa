@@ -8,7 +8,27 @@
     ></router-link>
 
     <div class="options-holder">
+      <router-link
+        :to="link.path"
+        v-for="link in links"
+        :key="link.text"
+        tag="button"
+        class="link"
+      >
+        {{ link.text }}
+      </router-link>
+
+      <div class="magnifying-glass">&#128269;</div>
       <div class="search-holder">
+        <input
+          @input="searchForArticles"
+          @change="hideSearchResults"
+          @focus="showSearchResults"
+          ref="search"
+          type="text"
+          placeholder="заглавие на статия..."
+          class="search-inp"
+        />
         <div :class="['search-results', areSearchResultsHidden ? 'hide' : '']">
           <router-link
             v-for="article in foundArticles"
@@ -21,25 +41,6 @@
           </router-link>
         </div>
       </div>
-      <router-link
-        :to="link.path"
-        v-for="link in links"
-        :key="link.text"
-        tag="button"
-        class="link"
-      >
-        {{ link.text }}
-      </router-link>
-      <div class="magnifying-glass">&#128269;</div>
-      <input
-        @input="searchForArticles"
-        @change="hideSearchResults"
-        @focus="showSearchResults"
-        ref="search"
-        type="text"
-        placeholder="заглавие на статия..."
-        class="search-inp"
-      />
     </div>
 
     <div class="dummy"></div>
@@ -117,11 +118,6 @@ $search-inp-height: 20px
       transform: scale(1.1)
   .options-holder
     display: flex
-    .magnifying-glass
-      margin: auto 10px auto auto
-    .search-inp
-      height: $search-inp-height
-      margin: auto 0
     .search-holder
       position: relative
       margin: auto 0
@@ -130,18 +126,21 @@ $search-inp-height: 20px
         position: absolute
         top: calc( #{$search-inp-height} + 7px )
         left: 0
-        background-color: white
         z-index: 1
-        &.hide
-          display: none
         button
           width: 100%
-          background-color: transparent
+          background-color: white
           border: 1px solid black
           border-top: none
           cursor: pointer
           &:hover
             background-color: #e4e4e4
+        &.hide
+          display: none
+    .magnifying-glass
+      margin: auto 10px
+    .search-inp
+      height: $search-inp-height
     .link
       &.router-link-exact-active
         color: #4064d7

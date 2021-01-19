@@ -21,6 +21,12 @@ export default {
       href: "",
       data: [
         {
+          tag: "img",
+          src:
+            "https://lh3.googleusercontent.com/lZBV__p6VSFvlvV1ABMh3LtI543dAL4KLbXX5RHVk27tAtHlK_PGU-ww3r6_cBwLeCBArzXYH4SG3Q9a7Pg=w2536-h1876",
+          alt: "kiyfteta",
+        },
+        {
           tag: "h1",
           text: articlesHolder.izhrana.recepti[1].text,
         },
@@ -55,19 +61,8 @@ export default {
         {
           tag: "img",
           src:
-            "https://www.mashterka.com/wp-content/uploads/2020/11/IMG_20201118_132954-1-225x300.jpg",
-          alt: "jar",
-        },
-        {
-          tag: "p",
-          text:
-            "<strong>Така изглежда течност от сварената леща! Трябват ни до 150мл. (това в буркана е около 600-650мл.)&nbsp; &nbsp; &nbsp;&nbsp;</strong>",
-        },
-        {
-          tag: "img",
-          src:
-            "https://www.mashterka.com/wp-content/uploads/2020/11/IMG_20201118_132854-1-225x300.jpg",
-          alt: "bowl",
+            "https://lh5.googleusercontent.com/Wv9GAxvhIRbdlC7LXaPyR8tbKpLZmljiFniSUilXAjMAzuJHKMLNYHG8NPIuE-JoLRBNP4LHFRsPai5KMok=w2536-h1876",
+          alt: "smes",
         },
         {
           tag: "p",
@@ -86,8 +81,8 @@ export default {
         {
           tag: "img",
           src:
-            "https://www.mashterka.com/wp-content/uploads/2020/11/IMG_20201118_133158-1-225x300.jpg",
-          alt: "bowl",
+            "https://lh4.googleusercontent.com/Ci9DJUI1DoVpQ45nUOPt_oiqh0oOtQ4RgZNBGwAT_SE2ed3butl-r1LoBeh7wcrs8lL2wzyFmxVvPxV8VVI=w2536-h1876",
+          alt: "blendirane",
         },
         {
           tag: "p",
@@ -102,8 +97,8 @@ export default {
         {
           tag: "img",
           src:
-            "https://www.mashterka.com/wp-content/uploads/2020/11/IMG_20201118_135258-1-225x300.jpg",
-          alt: "meatballs",
+            "https://lh4.googleusercontent.com/h2tOqxckq96-q5T1BYhkklMkOqvlAiX0NjYEkncsVIaUZjJHcnGM4akxfaU7GazXdkiEXvt9p81oFME3wJo=w2536-h1876",
+          alt: "syrovi kiyfteta",
         },
         {
           tag: "p",

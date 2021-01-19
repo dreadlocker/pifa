@@ -21,6 +21,12 @@ export default {
       href: "",
       data: [
         {
+          tag: "img",
+          src:
+            "https://lh3.googleusercontent.com/urkuIswby_C-9I23JIhScFoGaJ0RQerymdCpAM7zbZhzCtSldKoZueOuXO3zNvPkcQ0XuIsJyFxDd6WnRqY=w2688-h1876",
+          alt: "sos",
+        },
+        {
           tag: "h1",
           text: articlesHolder.izhrana.recepti[0].text,
         },

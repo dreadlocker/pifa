@@ -23,8 +23,8 @@ export default {
         {
           tag: "img",
           src:
-            "https://www.mashterka.com/wp-content/uploads/2017/01/tomato-1662882_6401.jpg",
-          alt: "tomato",
+            "https://lh6.googleusercontent.com/A4G9x-5uTUXCPBbR4Z4S0lQz6gadV3PHt4dahBiDO7ad6PnBrkyfm2TSNVjW-TZbucK0T8HSa5-gwPXQO_I=w2536-h1876",
+          alt: "domat",
         },
         {
           tag: "h1",

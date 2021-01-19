@@ -21,6 +21,12 @@ export default {
       href: "",
       data: [
         {
+          tag: "img",
+          src:
+            "https://lh6.googleusercontent.com/AZcjBj7Whwg9D3fLb0uy9Dq-kSBvLNzZzUeXAGEGNWpFZHD_dHEPw2gcW-h8vb6wi_3n9D9ZT3NDXisHGvE=w2536-h1876",
+          alt: "keks",
+        },
+        {
           tag: "h1",
           text: articlesHolder.izhrana.recepti[4].text,
         },

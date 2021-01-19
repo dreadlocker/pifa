@@ -21,6 +21,18 @@ export default {
       href: "",
       data: [
         {
+          tag: "img",
+          src:
+            "https://drive.google.com/file/d/1A1LCmcrcwHW1peeS6dhXkrqpW-ym506G/preview",
+          alt: "avokado",
+        },
+        {
+          tag: "img",
+          src:
+            "https://lh3.googleusercontent.com/lgAQL1rR9SHgJ6PCkQ3BS5CNUByyaIrVNwyoa2rCcYEwvHhS9pWFQ0_P4CUp1ZDhofigCy0GnOpGEI_3rAg=w2536-h1876",
+          alt: "avokado",
+        },
+        {
           tag: "h1",
           text: articlesHolder.izhrana.plodove[0].text,
         },
@@ -58,13 +70,6 @@ export default {
             "<strong>Вода</strong>, много вода",
           ],
         },
-        // <img
-        //   draggable="false"
-        //   role="img"
-        //   class="emoji"
-        //   alt="🙂"
-        //   src="https://s.w.org/images/core/emoji/13.0.1/svg/1f642.svg"
-        // />
         {
           tag: "p",
           text:
@@ -75,16 +80,54 @@ export default {
           text:
             "Разгледайте този албум, за да видите как ние подготвихме нашите авокадови семки за посяване",
         },
-        //     <iframe
-        //   allowfullscreen="true"
-        //   mozallowfullscreen="true"
-        //   webkitallowfullscreen="true"
-        //   class="imgur-embed-iframe-pub imgur-embed-iframe-pub-a-yieCx-true-540"
-        //   scrolling="no"
-        //   src="https://imgur.com/a/yieCx/embed?pub=true&amp;ref=https%3A%2F%2Fwww.mashterka.com%2Fotglezhdane-na-avokado%2F&amp;w=540"
-        //   id="imgur-embed-iframe-pub-a-yieCx"
-        //   style="height: 500px; width: 540px; margin: 10px 0px; padding: 0px"
-        // ></iframe>
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh4.googleusercontent.com/Xk-ruVAAQtPoP_6Wi9RgCHNawt3DRAxJQcMUUCA7UUSjKVCsDWayXmEYzjdSc7MhzgKiXqc3YFJItqlx-00=w2536-h1876",
+        //   alt: "avokado 1",
+        // },
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh4.googleusercontent.com/EA8CkpjkX8dkBsTN1GauQKxlkdBli7UoMNapNNDkcW_exPj45YULPSD0WnePLGSVQMJN4HLagXAJ-yiFzuc=w2536-h1876",
+        //   alt: "avokado 2",
+        // },
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh6.googleusercontent.com/kbZVkiJB9r3u-4YHeMZjvDMI5dDoJ4gCjuoPKzFUKEvcRqUeORPw8D1_KJrA_mCVZTr6q0pnNbvaQ0xXLvQ=w2536-h1876",
+        //   alt: "avokado 3",
+        // },
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh5.googleusercontent.com/UW8R9J8VXRB4gX3utuNEXmBFBcmCqBjLEEj9MkXCJ5n_onR8eWFCGHDJB5QuW2cNTJKUww9iWmtBIjwckow=w2536-h1876",
+        //   alt: "avokado 4",
+        // },
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh3.googleusercontent.com/eT5E9ZiePzJGIyIlLVGQfHhxWqaJTaQxuZBTbyonXRhOmsWUbZ2sqV34c_2FTxiIjETmw38bgo__6S4QTOU=w2536-h1876",
+        //   alt: "avokado 5",
+        // },
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh6.googleusercontent.com/tfRooATl16BIBNfc386mZzzsGmYw5EwrH0E3lflDeUrD8eBJiv4uGi2ufyXbnVTfpk4nu-8nt7gUX4kehD4=w2536-h1876",
+        //   alt: "avokado 6",
+        // },
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh3.googleusercontent.com/ThwD216hgelErzkYKo5r4lT6j0qbs_LGweYaQFU0ajmttwutH7cBPnRRAUPZT1bJuGKAy6JtUl3-7c35RZ8=w2536-h1876",
+        //   alt: "avokado 7",
+        // },
+        // {
+        //   tag: "img",
+        //   src:
+        //     "https://lh3.googleusercontent.com/9NoDwPzXMyuyY2-hQAcqSqb9F2Yfvx8VgZDG50T5P-xzhBh9jTWumi4LidYEHz4dNtKwW5WPdBbUcACwMws=w2536-h1876",
+        //   alt: "avokado 8",
+        // },
         {
           tag: "p",
           text:

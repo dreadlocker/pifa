@@ -32,6 +32,13 @@
       >
         <img :src="item.src" :alt="item.alt" class="base-article-img" />
       </div>
+      <div
+        v-else-if="item.tag === 'googleDrivePhotos'"
+        :key="item.src"
+        class="base-article-img-holder"
+      >
+        <iframe :src="item.src" width="640" height="480" :key="index"></iframe>
+      </div>
       <iframe
         v-else-if="item.tag === 'video'"
         :title="iframeTitle"

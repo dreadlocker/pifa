@@ -21,6 +21,12 @@ export default {
       href: "",
       data: [
         {
+          tag: "img",
+          src:
+            "https://lh4.googleusercontent.com/77RGFheqnaZescMXxia1XFEMqoy0d_frL8seo3P5ljQ3gqM82kQuLrIt4Qqwk2rN13C6T_hKL8Qwlwgbjpw=w2536-h1876",
+          alt: "shokolad",
+        },
+        {
           tag: "h1",
           text: articlesHolder.izhrana.recepti[3].text,
         },

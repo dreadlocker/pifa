@@ -21,6 +21,12 @@ export default {
       href: "",
       data: [
         {
+          tag: "img",
+          src:
+            "https://lh3.googleusercontent.com/iLaV4uQZTuX0aV7lMWn6COiqU2YiEq1hF59gZ-G__og_SjS80QjxYm_-YXmuvzFUDt2UaDUg_x_IhVb3C8o=w2536-h1876",
+          alt: "kombycha",
+        },
+        {
           tag: "h1",
           text: articlesHolder.izhrana.recepti[2].text,
         },
