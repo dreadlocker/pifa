@@ -23,7 +23,7 @@ export default {
         {
           tag: "img",
           src:
-            "https://lh3.googleusercontent.com/iLaV4uQZTuX0aV7lMWn6COiqU2YiEq1hF59gZ-G__og_SjS80QjxYm_-YXmuvzFUDt2UaDUg_x_IhVb3C8o=w2536-h1876",
+            "https://uc8126b53bd401fd86c0eb5490d0.previews.dropboxusercontent.com/p/thumb/ABDo0Npnwb9Gocb5xk1d6b0PhH9I4wWTVqhrwKJS6obodH01kyWtJKrlpfx3Gql_Se3a6BJUj60YQ_GTWMdjKKybHHyqnjTGtUW0zxgd4OGcvgQnNYRLRdqIJsXOsGfaUcIAyvc959OJRWOiQ_0DBANC9ApmVIHtQ3AZuFjUcbZ8jbYW-j0qWBYtjldeWpqvDKa_sDJnuqvOjLAHOk--yUQM3ueWFVb0Z4u_2vfEU7Rr66Nr31dLdaCjHVEAVt3eZy8bN3nPhrAewfLJc54fN1M3mmxoxjAohwnUb2z-CeYrlLxPssdRlQduhoxW9Ywtjmm61UNT8M6RHhCM13baxg1jgaFL_4RK3-oHDvqcnPv_Aw/p.png?fv_content=true&size_mode=5",
           alt: "kombycha",
         },
         {
@@ -168,7 +168,7 @@ export default {
         {
           tag: "p",
           text:
-            "<em><strong>Важно:</strong> вашата скоби гъба трябва да е кремава на цвят, гладка с лек мирис на оцет, но определено не трябва да има лош вкус, на изгнило или мугъл. Ако мугъл се е образувал върху гъбата ви, хвърлете я, не е годна за ползване.</em>",
+            "<em><strong>Важно:</strong> вашата скоби гъба трябва да е кремава на цвят, гладка с лек мирис на оцет, но определено не трябва да има лош вкус, на изгнило или мухъл. Ако мухъл се е образувал върху гъбата ви, хвърлете я, не е годна за ползване.</em>",
         },
         {
           tag: "h3",

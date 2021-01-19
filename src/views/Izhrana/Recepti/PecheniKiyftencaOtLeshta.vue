@@ -23,7 +23,7 @@ export default {
         {
           tag: "img",
           src:
-            "https://lh3.googleusercontent.com/lZBV__p6VSFvlvV1ABMh3LtI543dAL4KLbXX5RHVk27tAtHlK_PGU-ww3r6_cBwLeCBArzXYH4SG3Q9a7Pg=w2536-h1876",
+            "https://ucd18a34abe2a0677bdb41ecb8de.previews.dropboxusercontent.com/p/thumb/ABDNALEsF5XMzl17Gep1n1Xz5w3kIM8Ueb4qfTDm3ytkMcJBdekCW_DhQvVNBuWD9klvZRrytJIuqKyJfC5EMZ6XzBNLwb1PcoGJgEJGVsjB3OAB_Wf30fMVPKN5dV5BlTjjAmrhVF1IE9DljbhGXtPwnqVNLF1v3i8Hi39RDlWPkm8XygBH3QkgZFjdloqXUbkgkpmWTqFvHzfNj0gHQO8pQju0Sxd7skRFyvlY3wwq81q3eu9yKqE6OuuAFqk83SDNc_Dyfo9ZnEslpSE-hSIimWIWA2ET-bTBpHMu1KMzp5LymU2iv1edItdqFkpkTQw7ovi96kGhdmraoL5u26kZHktx3O4BRJH8h_P8p7FpJg/p.jpeg?fv_content=true&size_mode=5",
           alt: "kiyfteta",
         },
         {
@@ -61,7 +61,7 @@ export default {
         {
           tag: "img",
           src:
-            "https://lh5.googleusercontent.com/Wv9GAxvhIRbdlC7LXaPyR8tbKpLZmljiFniSUilXAjMAzuJHKMLNYHG8NPIuE-JoLRBNP4LHFRsPai5KMok=w2536-h1876",
+            "https://uc6c52bdc51a257ca7eb6fd7253d.previews.dropboxusercontent.com/p/thumb/ABDz50i12R6ZUuiTOy3riS7rrQhJqyrVUMFdtm1NGIxwxYPaNL_OYh77zoLwYguxWG68XYhr0waOej7REZ5rAF69FXb4v4_By04edfZvcT-gyg__zQIN0OhCDXPBW_S4fVDX8fCPncJuylAuNflbV8tD5TroVR_mv1sBQ6IgVndr-joqt0zcGkZrst9l-r7lu2OcEoYyugIZrF0sF_AAESHnQ03sqGCJZ4iiEQpJRZQhOTTmV7hFCEfEtdhtZcwUXovAKXSge9kJ7vq-U2MV7w5j6xVBFQI68-R2GS2D9lh4l3s_alXbl4PheUu4Jwdo86LcPsDdca8W949Vm-qXssJ7EnCNt90kT8RP3FmhTx-KDQ/p.jpeg?fv_content=true&size_mode=5",
           alt: "smes",
         },
         {
@@ -81,7 +81,7 @@ export default {
         {
           tag: "img",
           src:
-            "https://lh4.googleusercontent.com/Ci9DJUI1DoVpQ45nUOPt_oiqh0oOtQ4RgZNBGwAT_SE2ed3butl-r1LoBeh7wcrs8lL2wzyFmxVvPxV8VVI=w2536-h1876",
+            "https://uc8d077a3ce8732a9a56e89fb1d6.previews.dropboxusercontent.com/p/thumb/ABCt8Q-TF7pfNTCBhnorw_krdZvO8XHdTmhqjhCTUrQYSmlwPf77Ffev7fCEDX-apxdHndlylls8pmXt-HlrfqI4_wXvC_Y7BPufppjoxqQ-Q2EYcZBg7_YjgwMy5s8BuV2RAFng4kuky4x6Qh9d1ozs7FagGYTn8DMUoF3l7UioxhtU_pdyc1AvYXrpjgk8O8vYnlgIEdl6WY3eFup3ibpBQI6PFXMgjnwMtbZHIPS-3a2tbAlmAlfxBkKqjyJW5AFb6g_8AZrVXCbB3Db7HjRvoHcQ2Z0Gu0iAvNNcxbGMfLLy_7lnzhdEm6gyFf1hVJm3YsdqGK4Wyr8rc4mXtc5bCcjz7xYjGn9PaLkliwTZBw/p.jpeg?fv_content=true&size_mode=5",
           alt: "blendirane",
         },
         {
@@ -97,7 +97,7 @@ export default {
         {
           tag: "img",
           src:
-            "https://lh4.googleusercontent.com/h2tOqxckq96-q5T1BYhkklMkOqvlAiX0NjYEkncsVIaUZjJHcnGM4akxfaU7GazXdkiEXvt9p81oFME3wJo=w2536-h1876",
+            "https://uc142fd521208de31e1b50fff5be.previews.dropboxusercontent.com/p/thumb/ABCdqqGyJ-uZ1yYdJFjAJR8xaetWrwbvGVrgjpoJ82dODqc7YsRLlcq7NHMd5fLBDK7Xg2Ur2orb3mBfmtqkjYiaaoaK8sP4VBUAUchwUgrcjnLn7m-GZJoGvbReH3syClzJhr5C0W5zhZHTFuIAi-FXTYTp35BmB2gD5Jb5OL_Vugi8NaaFRhmRn40X08gNx9J_VFHd50VMcGlVSbArcEE50K0WtsF0xYFcAoy8DnbbuL2D-kWPDKBpUFDPvfcqOsaHGww7SnpHqqdzEHKfYEdXh5JLjwUDX0XPY6Zxi0rZ5YC040nBT9GBR5c_R3MEwIksyUhTxujQ0LVqXqoZ8_raDJcdzb7P5rWe-9mo4ogFuQ/p.jpeg?fv_content=true&size_mode=5",
           alt: "syrovi kiyfteta",
         },
         {

@@ -23,7 +23,7 @@ export default {
         {
           tag: "img",
           src:
-            "https://lh4.googleusercontent.com/77RGFheqnaZescMXxia1XFEMqoy0d_frL8seo3P5ljQ3gqM82kQuLrIt4Qqwk2rN13C6T_hKL8Qwlwgbjpw=w2536-h1876",
+            "https://uc0420321ddc954af9cd64613bb0.previews.dropboxusercontent.com/p/thumb/ABBulrbYBEvwScIqQEfwXwh3zfOPifX39JZxmFVI_XrIe-oZ__2372KijVyrYY9SvdKp8jkd4h3VCXRyfsGhKFlYt-bxijkPi1nIoCZArYvdek4rZemwiPl37Gf4wg7gpCPIJRUeHoj45T1tudq5Rq3eUFVIeoygXWgHq9L0yVEv7x_t0tQf_ejTJ0yNxOeuZ0LerJLVScGLC1jeDqd3o5QVPzpPa3ly9Jv358Q7QbvfEYnyl3HpTnipn1v-6RI9FrMthSAx72nack3Uo0b77631uFE9NOj5BjdTG333SrfN97ja6e4efxNfbRgfO5FUzlcZ59iHFXpGxw3jCfJd51jZTBAIdJpg1QWoAdw1El8y5Q/p.jpeg?fv_content=true&size_mode=5",
           alt: "shokolad",
         },
         {
@@ -53,12 +53,6 @@ export default {
           tag: "p",
           text:
             "Накисваме <strong>фурмите в гореща вода</strong> за <strong>10 мин.</strong> Може да <strong>смелите бадемите</strong> на по <strong>едри парчета</strong>, може да ги използвате и <strong>цели</strong> – както предпочитате. <strong>Белите фурмите</strong> и изваждате костилките, <strong>добавяте целите/смлените бадеми</strong>, сега <strong>какаото</strong> и <strong>сокът</strong> от изстисканите <strong>цитрусови плодове</strong>. Разбърквате всичко до постигане на хомогенна смес. <strong>Слагате във фризер</strong>, за да се стегне сместа, за <strong>1 час</strong>.",
-        },
-        {
-          tag: "img",
-          src:
-            "http://www.mashterka.com/wp-content/uploads/2018/10/IMG_0012-225x300.jpg",
-          alt: "spoon with chocolate",
         },
         {
           tag: "p",

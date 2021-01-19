@@ -1,11 +1,6 @@
 <template>
   <div id="nav">
-    <router-link
-      to="/"
-      tag="img"
-      src="https://www.mashterka.com/wp-content/uploads/2020/11/cropped-cropped-icon2-1-240x96.png"
-      class="logo"
-    ></router-link>
+    <SvgHolder @click.native="goToHome" :name="'logo'" />
 
     <div class="options-holder">
       <router-link
@@ -49,13 +44,15 @@
 </template>
 
 <script>
-import { allArticles } from "@/assets/articlesHolder.js";
 import HamburgerMenu from "./HamburgerMenu";
 import links from "./linksHelper";
+import SvgHolder from "@/components/common/SvgHolder.vue";
+import { allArticles } from "@/assets/articlesHolder.js";
 
 export default {
   name: "NavBar",
   components: {
+    SvgHolder,
     HamburgerMenu,
   },
   data() {
@@ -85,6 +82,9 @@ export default {
     },
     showSearchResults() {
       this.areSearchResultsHidden = false;
+    },
+    goToHome() {
+      this.$router.push("/");
     },
   },
   created() {

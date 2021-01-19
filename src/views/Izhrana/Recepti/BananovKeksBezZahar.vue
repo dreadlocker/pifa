@@ -23,7 +23,7 @@ export default {
         {
           tag: "img",
           src:
-            "https://lh6.googleusercontent.com/AZcjBj7Whwg9D3fLb0uy9Dq-kSBvLNzZzUeXAGEGNWpFZHD_dHEPw2gcW-h8vb6wi_3n9D9ZT3NDXisHGvE=w2536-h1876",
+            "https://uc22392d20fcb8c24fe3c9fc5691.previews.dropboxusercontent.com/p/thumb/ABCeauQa1Hd1sMdDxjIYXfTKVm3mDnETDnv5t_gWy2ay6Q9kIogMMsZiFvxiP-kURbAj1mSVei6nkdeA3YvEbZ4UeNtNjIKodeSDJqSBETe_uZVv2RLgMWp0d9vv-jubfs_vbHuP0DSqisbRk-7ifFXX8kWvODYYpqNntuve2QH6QyB4J_px3CvfSPqMCkEK77yZdnYp7bkGJNlCPbV7cG7W1Bq4XAqTluFs4q9L3QFiBWoTrB2D96JqmNcnfh815zl1MEDYI7dxA2yGunw0X8bDHYhmCai2KaYhy3BdMD-BN7dwq5yxd0jH2Fwm0fdbPnzjE1hE0zAW-P6sTpb0VTL6ku8FRlyrZT3wGnbNdrSPNQ/p.jpeg?fv_content=true&size_mode=5",
           alt: "keks",
         },
         {
@@ -34,12 +34,6 @@ export default {
           tag: "p",
           text:
             "Здравейте, казвам се Мария, преди всичко искам да кажа, че съм далеч от професионален готвач. Лично правило – храната да е здравословна! Любовта към готвенето открих преди две години и от тогава насам изпробвам, майсторя, не винаги успешно, но съпругът ми има здрав стомах и честно сърце, за това тук ще публикувам експерименталните рецепти, които са се получили.&nbsp; И за начало – Ще са ви нужни следните <strong>съставки</strong>: /по ред на поява в сценария/",
-        },
-        {
-          tag: "img",
-          src:
-            "http://www.mashterka.com/wp-content/uploads/2018/10/IMG_0005-300x225.jpg",
-          alt: "cake",
         },
         {
           tag: "ul",
@@ -65,12 +59,6 @@ export default {
           tag: "p",
           text:
             "Пускате <strong>фурната</strong> да загрее на <strong>170° C</strong> , през това време накисваме <strong>фурмите в гореща вода</strong> за <strong>10 мин.</strong> Докато те се накисват, време е да <strong>намачкаме бананите</strong> докато не се превърнат в каша, <strong>добавяме яйцата</strong> и разбъркваме докато не се превърна в хомогенна смес. Нека добавим още няколко неща към тази смес – <strong>олио, брашно, маково семе, бакпулвер, ванилия</strong> – чудесно. Десет минути изминаха – започваме да <strong>белим фурмите</strong>, за да придобием по – добра текстура. След това ги <strong>режем, късаме</strong>… както намерим за добре и ги изпращаме към останалата смес. Разбъркваме и омесваме хубаво. Разделяме на две, като към първото парче <strong>добавяме какаото</strong> и отново размесваме. Събираме двете парчета. Хайде да печем! Време за <strong>печене около 45мин</strong>.",
-        },
-        {
-          tag: "img",
-          src:
-            "http://www.mashterka.com/wp-content/uploads/2018/10/IMG_0008-300x225.jpg",
-          alt: "cake",
         },
         {
           tag: "p",
