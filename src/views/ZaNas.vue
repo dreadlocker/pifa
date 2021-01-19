@@ -11,7 +11,7 @@
     <div class="icons-holder">
       <div v-for="item in social" :key="item.href">
         <a :href="item.href" target="_black">
-          <img :src="item.src" :alt="item.alt" class="image" />
+          <SvgHolder :name="item.name" />
         </a>
       </div>
     </div>
@@ -19,8 +19,13 @@
 </template>
 
 <script>
+import SvgHolder from "@/components/common/SvgHolder.vue";
+
 export default {
   name: "ZaNas",
+  components: {
+    SvgHolder,
+  },
   computed: {
     emailHref() {
       return `mailto: ${this.email}`;
@@ -31,17 +36,17 @@ export default {
       email: "mashterkaweb@gmail.com",
       social: [
         {
-          src: require("../assets/facebook.png"),
+          name: "facebook",
           href: "https://www.facebook.com/mashterkaweb",
           alt: "facebook",
         },
         {
-          src: require("../assets/instagram.png"),
+          name: "instagram",
           href: "https://www.instagram.com/mashterkaweb",
           alt: "instagram",
         },
         {
-          src: require("../assets/youtube.png"),
+          name: "youtube",
           href: "https://www.youtube.com/channel/UCNTUBEQ-FW-r1a2XQogWu9w",
           alt: "youtube",
         },
