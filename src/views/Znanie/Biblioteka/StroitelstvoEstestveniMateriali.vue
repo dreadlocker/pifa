@@ -23,8 +23,8 @@ export default {
         {
           tag: "img",
           src:
-            "https://ucc61c50614a8f73cc81fc5ec67b.previews.dropboxusercontent.com/p/thumb/ABCrrUWBf-JLeLfTO1rPAug9I5bEGmrA4YklOAUi72TcsLUWjqweb5xK1hVEJt55o84L6-9qhPEGQ0tPcoH5J1nkoebeUNgdlgU9Q7kIzKoVUCIY78Bdcz1N32_fPy0VV1hvvF1RUivtOsxOjaEaIGFahCB98etePI0L9vsoEuidSGlrSr0AioouQVZX_Y3A6xzZmdSAv3D_zpvwbd-JTuMrIRitSUe6w3QKOoPm7g7oIdSaKx_IupLDGsXAvMPLMQjjGi5mIVtHErV6DO062MoNJuluY5fSZWyl2JCcm29RUySexYaHrlyTTV-OGOQVKkdAsUqzMlFMeiGGcPNASOqXc6SmcmIpv6dskHdQoLpJvWCSUlZohPHRU4RLmqZYXVI-CvwF7frWfoTflwyXcZ0Fb53NpKKcm2vGkZur0VMGoEgim8vDjWhrku37F_iuO7MyvaxwKJec2ZP-fC6pnze7/p.jpeg?size=800x600&size_mode=3",
-          alt: "avokado",
+            "https://uc2e2a2e0a44a8f56a1c2ab4cb17.previews.dropboxusercontent.com/p/thumb/ABDGfgynPuTTkquDUk4h2LgN2ZGLAl8dQgOxUw7Kh2_KxPGeQGDp750-nsAaNk16AXmYjdaKnV9lChZxoakZF3BrNJb_SY9VmsE_Xl3X9-_5q2h35r-Tphyn2DCiWNiDGNlbClv-IluKnuj7SSNoFGUyLmNWsKLFPeqvWTr5mqpzwPVj-An4-UXBUDyjhEZICoGBsRsE3iXOfnl_D9QiHgmZRHHDwX3do1PV-eXJX7_mSQxbQ7Uymoi1h9gpGjarKOtn9EZu0sKmT7ee3JFZuthLPzTwMFFUmykahRTF1Cc6maWoByqF8m6vgYMo2I09FuOa2iCG_tWgDMbH_4Azu4R7NjFRI_2SauuC9w4jeeZt7Qs1t2UgypHOmEj7dT9KgwZDpBbIeZUuiuGHRdZ5kldE/p.png?size=800x600&size_mode=3",
+          alt: "korica na kniga",
         },
         {
           tag: "h1",
